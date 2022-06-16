@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="170" started-at="2022-06-15T07:44:34Z" finished-at="2022-06-15T07:44:34Z">
+    <groups>
+      <group name="smoke">
+        <method signature="aclass.tc1()[pri:0, instance:testng.aclass@6a41eaa2]" name="tc1" class="testng.aclass"/>
+        <method signature="bclass.tc4()[pri:0, instance:testng.bclass@7cd62f43]" name="tc4" class="testng.bclass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="170" started-at="2022-06-15T07:44:34Z" finished-at="2022-06-15T07:44:34Z">
+      <class name="testng.bclass">
+        <test-method status="PASS" signature="tc4()[pri:0, instance:testng.bclass@7cd62f43]" name="tc4" duration-ms="0" started-at="2022-06-15T07:44:34Z" finished-at="2022-06-15T07:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- testng.bclass -->
+      <class name="testng.aclass">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:testng.aclass@6a41eaa2]" name="tc1" duration-ms="47" started-at="2022-06-15T07:44:34Z" finished-at="2022-06-15T07:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- testng.aclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
